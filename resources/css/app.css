@@ -1,0 +1,72 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+
+  @media (min-width: 1272px) {
+    .md\:container {
+      max-width: 1000px;
+    }
+  }
+
+.bg-new{
+	background-color: #3179e4;
+}
+.mt-22{
+	margin-top: 4.6rem;
+}
+.h-660{
+	height: 660px;
+}
+
+.w-120 {
+  width: 44rem;
+}
+
+.contain{
+	width: 80%;
+}
+/*start seaction featuers*/
+.section{
+	height: 600px;
+}
+.svgs{
+	color: #18b79a;
+	font-size: 16px;
+}
+.sectionwork{
+	height: 460px;
+}
+/* end seaction featuers*/
+
+.h-600{
+	height: 660px;
+}
+.h-400{
+	height: 600px;
+}
+.w-600{
+	width: 900px;
+}
+
+.deep-blue{
+	background-color: #2879fe;
+}
+.input-blue{
+	background-color: #2261c8;
+}
+
+.bb:hover{
+	background-color: #2261c8;
+}
+.clip{
+	height: 100%;
+	width: 100%;
+	clip-path: polygon(0 0, 0% 100%, 100% 100%);
+	position: absolute;
+	z-index: -1;
+	background-color: blue;
+}
+.cir{
+	border-radius: 50%;
+}
+@tailwind utilities;
